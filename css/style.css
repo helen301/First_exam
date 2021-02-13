@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* first section style */
+.first-home {
+    background-image: url('/img/Livello\ 1.png');
+    min-height: 100vh;
+    min-width: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+   /* margin: 25px; */
+    padding: 55px;
+    flex-basis: 2rem;
+    cursor: pointer;
+}
+
+.bar {
+    display: flex;
+    margin-top: 25px;
+    padding-right: 35px;
+    list-style:none;
+    justify-content: space-between;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.center-text {
+    padding-top: 55px;
+
+}
+
+.life {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.print {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.get-started {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.started {
+    color: white;
+    background-color: #16A085;
+    border: none;
+    height: 45px;
+    width: 15%;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    padding-top: 9rem;
+    justify-content: center;
+}
+
+img {
+    margin: 10px;
+}
+
+/*end of first section */
+
+/* style for second section */
+
+.second {
+    background-image: url('/img/urn_aaid_sc_US_d88a318f-9d1d-4d86-8a73-aece24e5ac52.png');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-text {
+    position: absolute;
+    width: 60%;
+    height: 4em;
+    left: 5%;
+    bottom: -35%;
+    margin-top: -2em;
+}
+
+/*end of second section */
+
+@media only screen and (max-width: 768px) {
+    
+    .nav-bar {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+    }
+}
+
+
