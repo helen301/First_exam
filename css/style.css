@@ -108,6 +108,7 @@ img {
 #second {
     background-image: url('/img/urn_aaid_sc_US_d88a318f-9d1d-4d86-8a73-aece24e5ac52.png');
     min-height: 100vh;
+    min-width: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,13 +151,68 @@ p {
 
 /*end of second section */
 
+/* third section */
+
+.wrapper {
+    position: relative;
+    background-color: white;
+    margin-top: -4%;
+    padding-top: 15%;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+
+}
+
+.iphone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15% 0 0 10%;
+}
+
+.text {
+    position: absolute;
+    width: 25%;
+    height: 4em;
+    left: 61%;
+}
+
+.learn-more {
+    text-align: right;
+    padding-top: 17em;
+    padding-right: 15em;
+}
+
+.number {
+    text-align: right;
+    padding-right: 28em;
+    padding-top: 2em;
+}
+
+.dir {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+/*end of third section */
+
 @media only screen and (max-width: 768px) {
     
     .nav-bar {
-        height: 100%;
-        width: 200px;
-        position: fixed;
-        z-index: 1;
+        display: inline-block; 
+        color: white;
+        background: #a02620;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .link {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
     }
 }
 
