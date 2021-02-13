@@ -8,7 +8,7 @@ body {
 }
 
 /* first section style */
-.first-home {
+#first-home {
     background-image: url('/img/Livello\ 1.png');
     min-height: 100vh;
     min-width: 100vh;
@@ -24,13 +24,24 @@ body {
     cursor: pointer;
 }
 
+
+
 .bar {
     display: flex;
-    margin-top: 25px;
-    padding-right: 35px;
+    flex-direction: row;
+    margin: 25px;
+    padding: 35px ;
     list-style:none;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 15%;
 }
+
+.link:hover {
+    color:yellowgreen;
+}
+
 
 li {
     font-family: 'Roboto', sans-serif;
@@ -39,8 +50,15 @@ li {
     font-weight: bold;
 }
 
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 55px;
+}
+
 .center-text {
-    padding-top: 55px;
+    padding-top: 75px;
 
 }
 
@@ -87,7 +105,7 @@ img {
 
 /* style for second section */
 
-.second {
+#second {
     background-image: url('/img/urn_aaid_sc_US_d88a318f-9d1d-4d86-8a73-aece24e5ac52.png');
     min-height: 100vh;
     background-position: center;
@@ -97,11 +115,37 @@ img {
 
 .main-text {
     position: absolute;
-    width: 60%;
+    width: 25%;
     height: 4em;
     left: 5%;
     bottom: -35%;
     margin-top: -2em;
+}
+
+.get {
+    text-align: left;
+    width: 150%;
+    padding-top: 55px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #16A085;
+    font-weight: 300;
+}
+
+p {
+    color: grey;
+    line-height: 25px;
+}
+
+.butt {
+    color: white;
+    background-color: #16A085;
+    border: none;
+    height: 45px;
+    width: 25%;
+    cursor: pointer;
 }
 
 /*end of second section */
