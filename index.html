@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>Photo Life</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
     <section id="first-home">
         <div class="nav-bar">
-            <ul class="bar">
-                <li><a class="link" href="#first-home">HOME</a></li>
-                <li><a class="link" href="#second">PHOTOAPP</a></li>
-                <li><a class="link" href="#"><img src="./img/Livello 2.png" alt="camera"></a></li>
-                <li><a class="link" href="#third">DESIGN</a></li>
-                <li><a class="link" href="#first-home">DOWNALD</a></li>
-            </ul>
+            <nav>
+                <button class="ham" id="ham">
+                   <i class="fas fa-bars"></i>
+                </button>
+                <ul class="bar" id="bar">
+                    <li><a  href="#first-home">HOME</a></li>
+                    <li><a  href="#second">PHOTOAPP</a></li>
+                    <li><a  href="#"><img class="camera" src="./img/Livello 2.png" alt="camera"></a></li>
+                    <li><a   href="#third">DESIGN</a></li>
+                    <li><a   href="#first-home">DOWNALD</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="center-text">
             <h1 class="life">YOUR LIFE , A PHOTO</h1>
@@ -64,6 +71,20 @@
             </div>
         </div>
     </section>
-    
+    <section id="fourth">
+        <div class="comunity">
+                <img class="ph" src="/img/Livello 4.png" alt="photo">
+                <h3 class="our">OUR COMMUNITY</h3> 
+                <p class="our-text"> ipsum dolor sit amet, <br>consectetur adipiscing elit,</p> 
+            </div>
+    </section>
+<section id="fifth">
+    <form class="form-group">
+        <h4 class="subscribe">SUBSCRIBE TO OUR COMMUNITY</h4>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR EMAIL" >
+        <button class="check"><img src="/img/fa-check.png" alt="check"></button>
+    </form>
+</section>
+    <script src="/index.js"></script>
 </body>
 </html>
